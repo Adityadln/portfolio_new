@@ -22,8 +22,8 @@ export default (t) => {
 
                 <div class="header__inner">
                     <a class="logo" href="/">
-                        <img class="logo__img" src="/images/logo.svg" alt="Elias logo">
-                        <span class="logo__name">Elias</span>
+                        <img class="logo__img" src="/images/logo.svg" alt="DLN logo">
+                        <span class="logo__name">DLN</span>
                     </a>
                     <div class="header__links">
                         ${paths
@@ -38,15 +38,6 @@ export default (t) => {
                             )
                             .join("")}
                     </div>
-                    <div class="dropdown">
-                        <span class="dropdown__label">en</span>
-
-                        <div class="dropdown__list">
-                            <div class="dropdown__option">ru</div>
-                            <div class="dropdown__option">ua</div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             

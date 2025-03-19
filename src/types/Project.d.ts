@@ -3,10 +3,10 @@ export interface Project {
     links: {
         live?: `${string}.${string}`;
         figma?: string;
-        github?: `/${string}` | `${string}/${string}`
+        github?: `/${string}` | `${string}/${string}`,
+        huggingface?: string;
     };
     techs: string[];
     hasImage?: boolean;
-    isSmall?: boolean;
     isInProgress?: boolean
 }

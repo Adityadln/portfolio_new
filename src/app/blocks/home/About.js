@@ -12,7 +12,6 @@ export default (t) => {
 
                 <a href="/about-me" class="button">${t.button} -></a>
             </div>
-            <img src="/images/about-me.png" alt="" class="about__image">
         </section>
     `;
 };
