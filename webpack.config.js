@@ -17,7 +17,7 @@ module.exports = {
         chunkFilename: "js/[chunkhash].js",
         publicPath: "/portfolio_new/"
     },
-    mode: "development",
+    mode: "production",
     plugins: [
         new plugins.html({
             template: "src/templates/index.ejs",
