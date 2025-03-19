@@ -14,7 +14,8 @@ module.exports = {
     output: {
         path: resolve(__dirname, "dist"),
         filename: "js/[name].js",
-        chunkFilename: "js/[chunkhash].js"
+        chunkFilename: "js/[chunkhash].js",
+        publicPath: "/portfolio_new/"
     },
     mode: "development",
     plugins: [
@@ -95,7 +96,8 @@ module.exports = {
         port: 9000,
         historyApiFallback: {
             rewrites: [
-                { from: /./, to: "/404.html" },
+                { from: /^\/$/, to: "/index.html" },  
+                { from: /./, to: "/index.html" }      
             ],
         }
     },
