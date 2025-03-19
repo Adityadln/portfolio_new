@@ -3,102 +3,54 @@
  */
 const projects = [
     {
-        id: "deplos",
+        id: "NIT_Mentoring_Portal",
         links: {
-            figma: "1198393124994627983",
-            live: "deplos.github.io",
-            github: "Deplos/deplos.github.io"
+            github: "retraigo/nitt-mentoring"
         },
-        techs: ["pug", "stylus", "node"],
+        techs: ["vue", "ts","prisma"],
         hasImage: true,
     },
     {
-        id: "pixel-battle",
+        id: "Chat_App",
         links: {
-            live: "pixelbattle.fun",
-            github: "pixelate-it/pixelbattle-frontend",
+            github: "Adityadln/Chat-app",
         },
-        techs: ["preact", "css", "pixijs", "ts"],
+        techs: ["js", "ejs", "socket"],
         hasImage: true
     },
     {
-        id: "feedrum",
+        id: "Catch_the_Match",
         links: {
-            github: "Feedrum-Project/feedrum-next",
-            figma: "1314605686829534158"
+            github: "Adityadln/memoryMatch-H",
+            live: "adityadln.github.io/memoryMatch-H/html/Game-Hacker.html"
         },
-        techs: ["node", "next", "react", "zod"],
+        techs: ["js"],
         hasImage: true,
     },
     {
-        id: "chertnodes",
+        id: "Blog_App",
         links: {
-            figma: "1149829028455305659",
+            github:"Adityadln/blogapp-mern"
         },
-        techs: ["python", "flask", "scss"],
+        techs: ["react", "node", "mongo","docker"],
         hasImage: true,
     },
     {
-        id: "protectx",
-        techs: ["react", "node", "discordJs"],
+        id: "CNN_Food_Classifier",
+        techs: ["python", "pytorch", "gradio"],
         links: {
-            figma: "1168662007492356291",
-        },
-        hasImage: true,
-    },
-    {
-        id: "khanswers",
-        techs: ["express", "node", "ejs"],
-        links: {
-            live: "khanswers.vercel.app",
-            github: "/kahoot-answers",
+            huggingface: "spaces/adi-dln/dln-foodvision-mini",
         },
         hasImage: true,
     },
     {
-        id: "kotikbot",
-        techs: ["html", "css", "js"],
+        id: "Snake_Game",
+        techs: ["js", "html", "css"],
         links: {
-            live: "kotikbot.github.io",
-            github: "kotikbot/kotikbot.github.io",
+            github: "Adityadln/Snake-H",
         },
         hasImage: true,
-    },
-    {
-        id: "portfolio",
-        techs: ["js", "sass", "webpack"],
-        links: {
-            figma: "1164933568884615740",
-            github: "/EliasDevis.github.io",
-            live: "eliasdevis.github.io"
-        },
-        hasImage: true,
-    },
-
-    {
-        id: "discordbot",
-        techs: ["ts", "discordJs", "node"],
-        links: {
-            github: "/bot-template",
-        },
-        isSmall: true,
-    },
-    {
-        id: "chesspro",
-        techs: ["figma"],
-        links: {
-            figma: "1148344443083977909",
-        },
-        isSmall: true,
-    },
-    {
-        id: "madhost",
-        techs: ["pug", "less", "gulp", "node"],
-        links: {
-            live: "madhost.pw",
-        },
-        hasImage: true,
-    },
+    }
 ];
 
 export default projects;
