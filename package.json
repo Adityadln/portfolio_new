@@ -6,6 +6,7 @@
     "name": "Elias",
     "url": "https://EliasDevis.github.io"
   },
+  "homepage": "https://github.com/Adityadln/portfolio_new",
   "license": "MIT",
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
