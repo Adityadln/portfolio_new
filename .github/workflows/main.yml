@@ -8,31 +8,30 @@ on:
 permissions:
   contents: write
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
 
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with: 
           node-version: 16.15
 
-      - name: Install
+      - name: Install dependencies
         run: yarn install
 
-      - name: Build
+      - name: Build project
         run: yarn build
 
-      - name: Deploy to GH Page
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
           folder: dist
-          single-commit: false
+          clean: true  
